@@ -10,7 +10,17 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+      This is a bad visualization: https://x.com/JonBoeckenstedt/status/1291602888376999936
+      The biggest problem with this graph is that y axis on the left and y axis on the right side represent different values. The graph is meant to compare mask vs. no mask mandate counties covid cases. But if you look closely you would realize that it doesn't make sense to compare these two conditions because they have different starting points. You can only compare temporal wise (e.g., first day vs. the last day) within each condition, but it doesn't make sense to compare between conditions (e.g., not mask vs. no mask).  
+
+      Good visualization: https://timogrossenbacher.ch/bivariate-maps-with-ggplot2-and-sf/
+      I really like this map. It's visually pleasing and professional. The goal is to visualize income and inequality on the same map. The 9 color legend is really helpful and effective in distingushing the areas by income and inequality. I also like how there are captions on the map so we don't have to go back to the legend to check which color represents what info. 
+
+      I also love this 3d visualization.  https://x.com/researchremora/status/1611115019529322498
+      The story is simple, just population density. But the package rayshader does it in a way that's very visually pleasing and futuristic. Areas with a greater population are represented with peaks. It's easy to spot the major cities from a glance at this map.  
+
+
+    
 
 
 
@@ -21,7 +31,7 @@
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+      If I were to improve the bad visualization, I would first make sure there's only one y axis. Then I would explicitly lable the y axis as confirmed covid cases per 100k population. I would keep the color scheme, but I would create a legend to indicate orange means counties that have mask mandate,and blue means counties without mask mandate. I would also show the full range of the y axis. 
 
 
 
@@ -59,9 +69,9 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-2`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [x ] Create a branch called `assignment-2`.
+- [x ] Ensure that the repository is public.
+- [x ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [x ] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
