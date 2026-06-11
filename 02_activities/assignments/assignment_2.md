@@ -33,6 +33,8 @@
       ```
       If I were to improve the bad visualization, I would first make sure there's only one y axis. Then I would explicitly lable the y axis as confirmed covid cases per 100k population. I would keep the color scheme, but I would create a legend to indicate orange means counties that have mask mandate,and blue means counties without mask mandate. I would also show the full range of the y axis. 
 
+      For the good visualization, the only thing I would improve would probably be explaning the white space. It's not clear to me whether those are geographical features like mountains or borders between areas, or no human lives there, or no data available. 
+
 
 
 
