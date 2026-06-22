@@ -55,7 +55,7 @@ merged <- boundaries %>%
 ```
 
 # static graph
-```{r}
+```{r, fig.height= 12, fig.width= 9}
 merged$hover_text <- paste0(
   merged$area, "<br>Count: ", merged$match_count
 )
